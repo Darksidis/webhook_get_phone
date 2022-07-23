@@ -1,6 +1,10 @@
 # webhook_get_phone
-Small webhook application. Receives a phone from a telegram bot, and sends it to the specified link.
+webhook service working with api telegram.
 
 what did I use
 ------
 Django, TelegramAPI
+
+how it works
+------
+telegram monitors the bot for updates, and if there is an update, it notifies the server (django-app), which in turn sends information to the specified address.
